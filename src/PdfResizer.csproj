@@ -3,6 +3,11 @@
     <PropertyGroup>
         <OutputType>WinExe</OutputType>
         <TargetFramework>net8.0</TargetFramework>
+        <Version>0.24.05.0</Version>
+    </PropertyGroup>
+    <PropertyGroup>
+        <PublishTrimmed>true</PublishTrimmed>
+        <TrimMode>partial</TrimMode>
     </PropertyGroup>
 
     <ItemGroup>
