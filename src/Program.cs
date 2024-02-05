@@ -23,7 +23,7 @@ namespace PdfResizer
             menu.AppendItem(new GLib.MenuItem("Help", "app.help"));
             menu.AppendItem(new GLib.MenuItem("About", "app.about"));
             menu.AppendItem(new GLib.MenuItem("Quit", "app.quit"));
-            App.AppMenu = menu;
+            // App.AppMenu = menu;
 
             var helpAction = new GLib.SimpleAction("help", null);
             helpAction.Activated += HelpActivated;
